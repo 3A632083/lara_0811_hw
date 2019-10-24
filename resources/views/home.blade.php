@@ -64,6 +64,8 @@
         </style>
     </head>
     <body>
+    <a href="{{route('about.index')}}">about</a>
+    <a href="{{route('news.index')}}">news</a>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -81,7 +83,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    首頁
                 </div>
 
                 <div class="links">
